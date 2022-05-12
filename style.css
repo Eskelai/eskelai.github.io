@@ -1,5 +1,5 @@
 body {
-    color: #566b78;
+    background-color: #321D2F;
     line-height: 1.5;
 
     margin: 0 auto;
@@ -10,6 +10,11 @@ body {
 }
 
 
+p {
+    color: #fff;
+}
+
+
 #kitten img {
     position: relative;
     left: 50%;
@@ -17,17 +22,21 @@ body {
 
 #navbar {
     margin: 1em;
-    transform: translateX(35%);
+    transform: translateX(27%);
 }
 
 #navbar ul {
     display: inline-flex;
 }
 
+#navbar ul a {
+    color: #fff
+}
+
 h1,
 h2,
 strong {
-    color: #333
+    color: #4C5F7A
 }
 
 h2 {
@@ -36,7 +45,7 @@ h2 {
 }
 
 pre {
-    background: #f5f7f9;
+    background: #3D2E4F;
     padding: 1em;
     border-left: 4px solid #69c;
     border-bottom: 1px solid #d8dee9;
@@ -44,5 +53,5 @@ pre {
 }
 
 a {
-    color: #e81c4f
+    color: #393E6F
 }
