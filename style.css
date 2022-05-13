@@ -89,6 +89,6 @@ a {
 }
 
 [type="radio"]:checked~label {
-    text-shadow: #fff;
+    text-shadow: 0px 0px 2.2px;
     text-decoration: underline;
 }
